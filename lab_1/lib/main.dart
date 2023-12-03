@@ -41,9 +41,7 @@ class _Lab1ExerciseState extends State<Lab1Exercise> {
           floatingActionButton: Builder(
             builder: (BuildContext context) {
               return FloatingActionButton(
-                onPressed: () {
-                  displayAddCourseDialog(context);
-                },
+                onPressed: displayAddCourseDialog(context),
                 child: const Icon(Icons.add),
               );
             },
