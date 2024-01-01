@@ -31,6 +31,15 @@ render.experimental.xml
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+firebase_app_id_file.json
+
+/.firebase/
+/firebase.json
+/firestore.rules
+/storage.rules
+
 
 # Android Profiling
 *.hprof
@@ -391,3 +400,5 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/flutter,dart,visualstudiocode,androidstudio,firebase,android,kotlin,linux,macos,windows,web
+
+google-services.json
